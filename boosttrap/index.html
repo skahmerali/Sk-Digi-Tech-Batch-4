@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoostTrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.scss">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <style>
+        /* Custom CSS to align navbar to the right */
+        .right {
+            /* float: right; */
+            /* margin-left: 500px; */
+        }
+
+        .row div {
+            display: inline-block !important;
+            margin:20px auto ;
+            /* margin: ; */
+        }
+
+        /* body {
+            display: flex !important;
+            flex-direction: column !important;
+            min-height: 100vh !important;
+            margin: 0 !important;
+        }
+
+        .main {
+            flex: 1;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: white;
+        }
+
+        .navbar-brand {
+            margin-right: auto; /* Push the brand/logo to the right */
+        /* } */
+        /* $n:5;  */
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="main">
+        <!-- below the code from boosttrap NAVBAR -->
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sk Digi Tech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse  navbar-collapse right" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Additional required wrapper -->
+        <!-- <div class="gallery">
+                <img src="https://picsum.photos/id/1004/400/400" alt="a lovely kiss in the night">
+                <img src="https://picsum.photos/id/1013/400/400" alt="a women inside a car">
+                <img src="https://picsum.photos/id/1066/400/400" alt="a baby">
+                <img src="https://picsum.photos/id/325/400/400" alt="a girl in the forest">
+                <img src="https://picsum.photos/id/65/400/400" alt="a girl">
+              </div> -->
+        <div class="clocalCarousel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://i.natgeofe.com/n/487a0d69-8202-406f-a6a0-939ed3704693/african-lion_4x3.JPG"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://wallpapers.com/images/featured/lion-hrje02z5tlevvwvb.jpg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="row">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.istockphoto.com/id/1478313319/photo/male-lion.jpg?b=1&s=170667a&w=0&k=20&c=plYvl6Dft0rG-caolRQfeKM7VKW0J4OmhpEe_AH6EP0="
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-success">Go somewhere</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              2 days ago
+            </div>
+          </div>
+</body>
+
+</html>

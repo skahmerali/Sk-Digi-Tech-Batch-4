@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@font-face {
+    font-family: "poppin";
+    src: url('./fonts/Poppins/Poppins-ExtraBoldItalic.ttf');
+}
+h1{
+    /* font-family: fantasy; */
+    /* font-family: poppin; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    /* font-family: 'Handjet', cursive; */
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: -5px -5px 1px rgb(203, 128, 128);
+    /* text-align: right; */
+}
+p::first-line{
+    font-weight: bold;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 2.5em;
+    letter-spacing: 0.1em;
+    word-spacing: .5em;
+    /* text-indent: 2.5em; */
+    /* padding: 20px; */
+}

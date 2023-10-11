@@ -1,0 +1,47 @@
+/* body{
+    background-color: rgb(179, 157, 127);
+} */
+p{
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(184, 189, 188); */
+    /* border: 2px solid rgb(230, 228, 228); */
+    box-shadow: 0px 0px 10px rgb(205, 35, 35);
+    border-radius: 2px 20px 5px 20px;
+    cursor: pointer;
+}
+p:hover{
+background-color: blue;
+border-radius: 50%;
+}
+.list{
+    list-style: inside circle;
+    /* list-style-image: url('https://png.pngtree.com/png-vector/20220926/ourmid/pngtree-shiny-gold-star-clipart-illustration-design-png-image_6216956.png'); */
+    /* width: 29px;
+    height: 20px; */
+}
+li{
+    margin: 10px 0px 0px 0px;
+}
+
+table{
+    width: 200px;
+    /* border-spacing: 5px 30px; */
+    border-collapse: collapse;
+}
+th{
+    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(90, 86, 86);
+    text-transform: capitalize;
+
+}
+.row{
+    background-color: rgb(156, 155, 155);
+}
+td{
+    border: 2px solid blue;
+}
+
+tr:hover{
+    background-color: gray;
+}

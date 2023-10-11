@@ -1,0 +1,43 @@
+.main {
+    width: 95%;
+    height: 1000px;
+    /* border: 2px solid #f33; */
+    margin: auto;
+}
+
+.header {
+
+    background-image: linear-gradient(red, yellow);
+    width: 95%;
+    height: 50px;
+    position: relative;
+    top: 0%;
+    left: 1%;
+}
+
+.navbar {}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px 20px 0px 10px;
+    color: white;
+   
+}
+
+.logo {
+    float: right;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px 0px 10px;
+}
+.img-car{
+    /* margin: auto; */
+    /* border: black 2px solid;  */
+}
+.body {}
+.box{
+    width: 20%;
+    display: inline-block;
+    margin: 2px;
+}
