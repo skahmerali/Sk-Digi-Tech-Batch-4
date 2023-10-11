@@ -1,23 +1,13 @@
-// var firstName1 = prompt("Enter your first name ?");
+var arrays = ["hafiz","sheikh" , "ahmer", "ali"];
 
+// console.log(arrays[0]);
+// console.log(arrays[1]);
+// console.log(arrays[2]);
+// console.log(arrays[3]);
 
-// var firstNumber = 565 ;
-
-// var secondNumber =+ prompt("Enter second number");
-
-// var result = firstNumber + secondNumber ;
-
-// alert(result);
-
-//   deivde / multiply * add + subtract -
-
-
-var number = 1;
-// number++
-// number++
-console.log(number++);
-console.log(number);
-
-
-var numberCalculation = ((4 * (4 / (8 - 28))) + (49 + 17 ));
-console.log(numberCalculation);
+// for keyword ===> () conditional pranthesis ===> {} body parenthesis
+for (var i = 1; i < 11; i++) {
+    // console.log(arrays[i])
+    // console.log(i)
+    console.log("2 * " + i + " = " + 2*i )
+}
