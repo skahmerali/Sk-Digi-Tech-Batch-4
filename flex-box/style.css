@@ -1,0 +1,36 @@
+/* .img{
+    width: 100px;
+}
+nav{
+    background-color: bisque;
+}
+ul {
+    display: inline;
+    float: right;
+}
+li{
+    display: inline-block;
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    width: 100px;
+}
+nav{
+   display: flex;
+   flex-direction:row-reverse;
+   justify-content: space-between;
+   background-color: bisque;
+}
+ul {
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+width: 300px;
+}
+li{
+ 
+   
+}
