@@ -18,25 +18,29 @@ export default function DummyData() {
 
 
     function getPosts() {
-        fetch("https://jsonplaceholder.typicode.com/posts")
+        fetch("https://jsonplaceholder.typicode.com/todos")
             .then((response) => response.json()
             )
-            .then((response) => setPosts(response))
+            .then((response) => { setPosts(response)})
             .catch((error) => {
                 console.log(error);
             });
 
     }
+    const getItem = (id) =>{
+        console.log(id);
+    }
+  
     var names = ["Alice", "Bob", "Charlie", "Diana", "Ethan", "Fiona", "George", "Haley", "Ivan", "Jasmine"]
     return (
         <div>
             {posts.map((data, key) => {
-                console.log(data.body);
+                console.log(data);
                 return (<>
                     <div key={key}>
                         <ul >
-                            <li>
-                                {data.body}
+                            <li  >
+                                {data.title} <button onClick={()=>getItem(data.id)}>update</button>
                             </li>
                         </ul>
                         
